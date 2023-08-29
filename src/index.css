@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+
+  background: #b9b9b9;
+}
+
+.container-main {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url("./assets/background1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 50px;
+}
+
+.header-login {
+  padding: 25px 0;
+}
+
+.header-icons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 138px;
+  height: 56px;
+  top: 36px;
+  right: 100px;
+}
+
+.header-icons h3 {
+  margin-right: 10px;
+
+  color: #fff;
+  font-size: 14px;
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+}
+
+.header-icons .header-icons-logoff {
+  width: 22px;
+  height: 27.5px;
+}
+
+.btn-purple {
+  border-radius: 5px;
+
+  color: #ffffff;
+  background-color: #7978d9;
+
+  font-weight: 700;
+  font-size: 16px;
+
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+.btn-white {
+  position: absolute;
+  top: 55px;
+  left: 105px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 80px;
+  height: 30px;
+
+  border-radius: 10px;
+  background-color: #fafafa;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
+
+input {
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #fff;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Lato, sans-serif;
+}

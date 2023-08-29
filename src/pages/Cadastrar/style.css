@@ -1,0 +1,67 @@
+.container-sign-up {
+  display: flex;
+  justify-content: center;
+}
+
+.container-sign-up .sign-up {
+  width: 513px;
+  padding: 60px 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+  background-color: #fff;
+}
+
+.container-sign-up .sign-up h3 {
+  color: #7978d9;
+
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container-sign-up .sign-up .input {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-sign-up .sign-up label {
+  padding-bottom: 8px;
+
+  display: flex;
+  align-items: flex-start;
+
+  color: #484848;
+  font-size: 18px;
+}
+
+.container-sign-up .sign-up input {
+  width: 100%;
+  padding: 12px 8px;
+
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.container-sign-up .sign-up button {
+  width: 100%;
+  height: 48px;
+}
+
+.container-sign-up .form-link {
+  margin-top: -38px;
+
+  text-decoration: none;
+  color: #7B61FF;
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
